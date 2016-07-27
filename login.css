@@ -1,0 +1,79 @@
+body {
+    font-size: 16px;
+    line-height:1;
+}
+.header {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height:200px;
+    color: black;
+    top: 0;
+    background:linear-gradient(rgba(0,100,255,0.3),rgba(0,100,255,0.7) 10%,rgba(0,150,255,0.9) 50%,rgba(0,173,255,0.9) 90%);
+    box-sizing:border-box;
+    /*border-bottom: 1px solid #157Fdd;*/
+}
+.header .x-panel-header {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-left: 200px;
+    line-height:50px;
+}
+.center {
+    background: #ccc url(../images/u8.jpg) no-repeat;
+    background-size:cover;
+}
+.form {
+    background: rgba(130,130,130,0.3);
+}
+.loginForm {
+    box-sizing: border-box;
+    position:absolute;
+    right:150px;
+    top:100px;
+    /*border:1px solid #808080;*/
+    border: none;
+    
+}
+.btnSubmit {
+    background:linear-gradient(rgba(0,173,255,0.3),rgba(0,173,255,0.7) 20%,rgba(0,173,255,0.9) 50%);
+    font-size:1.5rem;
+    width:80%;
+    height:40px;
+    margin: 50px auto;
+    text-align: center;
+    vertical-align:central;
+    display:block;
+    box-shadow:0 0 5px #157Fdd inset,0 0 5px #157faa;
+}
+.baseName,.basePassword {
+    margin:30px 0 0;
+    text-align:right;
+    vertical-align:middle;
+}
+.name {
+    font-size-adjust:1.3;  
+}
+.btnLable1 {
+    padding-left: 120px;
+    display:inline-block;
+}
+.x-form-item-label {
+    font-size: 17px;
+    vertical-align:middle;
+}
+.x-form-field {
+    height: 30px;
+    margin-top:-10px;
+    max-width: 230px;
+    font-size:17px;
+}
+#textfield-1014-labelEl {
+    margin-top:15px;
+}
+#textfield-1015-labelEl {
+    margin-top:-5px;
+}
+#textfield-1014 {
+    margin-bottom: 20px;
+}
